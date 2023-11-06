@@ -1,6 +1,6 @@
 import type { JobHandlerContract, Job } from '@ioc:Rlanz/Queue'
 import { apiAxios } from '../../config/app'
-import { AxiosError } from 'node_modules/axios'
+import { AxiosError } from 'axios'
 
 export type SendPushPayload = {}
 
